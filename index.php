@@ -6,9 +6,9 @@
 
 <body>
 
-<h1>My First Heading</h1>
+<h1>Hej</h1>
 
-<p>My first paragraph.</p>
+<p>Hej då</p>
 
 </body>
 </html>
