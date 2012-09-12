@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<title>Välkommna</title> 
 </head>
 
@@ -8,7 +10,7 @@
 
 <h1>Hej</h1>
 
-<p>Hej då</p>
+<p>Hejsvejs</p>
 
 </body>
 </html>
