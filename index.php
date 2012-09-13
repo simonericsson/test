@@ -1,4 +1,7 @@
+<?php
+include 'db/db.php'
 
+?>
 
 <!DOCTYPE>
 <html>
