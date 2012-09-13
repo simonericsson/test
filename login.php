@@ -10,14 +10,14 @@ if($_POST){
 $query = mysql_query("SELECT * FROM user WHERE username = '$username' AND password = '$password'");
 $data = mysql_fetch_assoc($query);
 
-
 if(mysql_num_rows($query)) {
 	//session_start();
-	//$_SESSION['anvandarnamn'] = $data['anvandarnamn'];
+	//$_SESSION['username'] = $data['username'];
 
-	header("Location: pageOm.php");
-
-
+	header("Location: adminIndex.php");
+}
+else {
+	header("Location: index.php");
 }
 }
 

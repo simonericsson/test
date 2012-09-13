@@ -1,32 +1,38 @@
+<?php
+include 'db/db.php';
+include 'login.php';
+include 'includes/login_form.php'
+?>
+
+
 <!DOCTYPE>
 <html>
 <head>
-	<title>Simons Super Sida</title>
-	
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Simons Super Sida</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
+
 <div id="mainArea">
-	<div id="contentBox">
-        <div id="title">SIMON ERICSSON</div>
+    <div id="contentBox">
         
-        <div id="linkGroup">
-            <div class="link"><a href="index.php">Start</a></div>
-            <div class="link"><a href="pageOm.php">Om</a></div>
-            <div class="link"><a href="index.html">Bilder</a></div>
-            <div class="link"><a href="index.html">Kontakt</a></div>
-        </div>
+        <div id="title">Simon Ericsson</div>
+        
+<?php include 'includes/meny.php'; ?>
         
         <div id="box"> 
-          <div id="header"></div>
-          <div class="contentTitle">HEJ ALLESAMMANS!</div>
+          <?php include 'includes/header.php';?>
+          <div class="contentTitle">Vaelkommen</div>
             <div class="pageContent">
-            	<p> Hej </p>
+                <p> Hej </p>
+                <p> Jag gillar sallad</p>
               
             </div>
-            <div id="footer">Hemsidan</a> av Simon Ericsson</a> 
+<?php include 'includes/footer.php'; ?> 
+
         </div>
-	</div>
+    </div>
 </div>
 </body>
 </html>

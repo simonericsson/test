@@ -25,7 +25,7 @@ include 'includes/login_form.php'
           <div class="contentTitle">Vaelkommen</div>
             <div class="pageContent">
             	<p> Hej </p>
-                <p> Jag gillar fisk</p>
+                <p> Jag gillar bilder</p>
               
             </div>
 <?php include 'includes/footer.php'; ?> 
