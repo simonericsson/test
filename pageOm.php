@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE>
 <html>
 <head>
@@ -10,7 +8,7 @@
 <body>
 <div id="mainArea">
 	<div id="contentBox">
-        <div id="title">Simons Smarta Sida</div>
+        <div id="title">SIMON ERICSSON</div>
         
         <div id="linkGroup">
             <div class="link"><a href="index.php">Start</a></div>
@@ -21,7 +19,7 @@
         
         <div id="box"> 
           <div id="header"></div>
-          <div class="contentTitle">Vaelkommen</div>
+          <div class="contentTitle">HEJ ALLESAMMANS!</div>
             <div class="pageContent">
             	<p> Hej </p>
               

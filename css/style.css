@@ -89,6 +89,7 @@ float:left;
 
 .contentTitle
 {
+text-align: center;
 font-family:Verdana, Arial, Helvetica, sans-serif;
 color:#213E74;
 font-size:19px;
@@ -146,7 +147,7 @@ color:#BDCDEC;
 
 #contentBox
 {
-margin-top:25px;
+margin-top:70px;
 }
 
 
@@ -154,4 +155,4 @@ margin-top:25px;
 html, body {
 text-align: center;
 }
-p {text-align: left;}
+p {text-align: center;}
