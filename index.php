@@ -23,6 +23,7 @@
           <div id="header"></div>
           <div class="contentTitle">Vaelkommen</div>
             <div class="pageContent">
+            	<p> Hej </p>
               
             </div>
             <div id="footer">Hemsidan</a> av Simon Ericsson</a> 
