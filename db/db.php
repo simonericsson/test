@@ -13,7 +13,7 @@ $db = mysql_select_db('testar') or die(mysql_error("kunde inte hitta db"));
 $sql = "SELECT * FROM Anvandare";
 $res = mysql_query($sql);
 
-		while($row = mysql_fetch_assoc($res)) {
-			echo '<h1>' . $row['anvandarnamn'] . '</h1>';
-	}
+//		while($row = mysql_fetch_assoc($res)) {
+//			echo '<h1>' . $row['anvandarnamn'] . '</h1>';
+//	}
 ?>

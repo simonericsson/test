@@ -1,6 +1,6 @@
 <?php
-include 'db/db.php'
-
+include 'db/db.php';
+include 'login.php';
 ?>
 
 <!DOCTYPE>
@@ -11,6 +11,16 @@ include 'db/db.php'
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
+    <div class="login">
+        <form method="POST" action="pageOm.php">
+            <label for="username">Anvandare</label>
+            <input type="text" name="username" id="username" />
+            <label for="password">Losenord</label>
+            <input type="password" name="password" id="password" />
+
+            <input type="submit" name="submit" value="Login" class="button"/>
+        </form>
+    </div>
 <div id="mainArea">
 	<div id="contentBox">
         <div id="title">Simons Smarta Sida</div>

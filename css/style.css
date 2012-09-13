@@ -24,18 +24,25 @@ body
 
 
 
-/* === Containers === */
+
+
+.login
+{
+  float:right;
+  margin-top:10px;
+  margin-right:6px;
+
+}
 
 
 
 #mainArea
 {
-  margin: 0 auto 0 auto; 
-  display: table; 
+  margin: 0 auto; 
   height: 100%;  
-  position: relative; 
   overflow: hidden; 
   width: 600px;
+  clear:both;
 }
 
 
@@ -147,7 +154,8 @@ color:#BDCDEC;
 
 #contentBox
 {
-margin-top:70px;
+margin-top: 20px;
+
 }
 
 
