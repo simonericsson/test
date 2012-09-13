@@ -1,8 +1,17 @@
 <?php
 session_start();
-include 'db/db.php';
-include 'login.php';
-include 'includes/login_form.php'
+
+if(!isset($_SESSION['username'])){
+	header("Location: ../index.php");
+}
+
+?>
+<a href="logout.php">Logga ut mig.</a>
+
+<?php
+
+include '../db/db.php';
+
 ?>
 
 <!DOCTYPE>
@@ -10,27 +19,26 @@ include 'includes/login_form.php'
 <head>
 	<title>Simons Super Sida</title>
 	
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 </head>
 <body>
-  <?php echo $data['username'];?>
+  
 
 <div id="mainArea">
 	<div id="contentBox">
         
         <div id="title">Simons Smarta Sida</div>
         
- <?php include 'includes/meny.php'; ?> 
+ <?php include '../includes/meny.php'; ?> 
         
         <div id="box"> 
-          <?php include 'includes/header.php';?>
+          <?php include '../includes/header.php';?>
           <div class="contentTitle">Vaelkommen</div>
             <div class="pageContent">
-            	<p> Hej </p>
-                <p> Jag gillar fisk</p>
+            	
               
             </div>
-<?php include 'includes/footer.php'; ?> 
+<?php include '../includes/footer.php'; ?> 
 
         </div>
 	</div>

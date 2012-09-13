@@ -1,5 +1,5 @@
 <div class="login">
-        <form method="POST" action="admin/adminIndex.php">
+        <form method="POST" action="login.php">
             <label for="username">Anvandare</label>
             <input type="text" name="username" id="username" />
             <label for="password">Losenord</label>

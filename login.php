@@ -1,4 +1,6 @@
 <?php
+	session_start();
+	
 include 'db/db.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -11,10 +13,12 @@ $query = mysql_query("SELECT * FROM user WHERE username = '$username' AND passwo
 $data = mysql_fetch_assoc($query);
 
 if(mysql_num_rows($query)) {
-	//session_start();
-	//$_SESSION['username'] = $data['username'];
+	
+	 
+$_SESSION['username'] = $username; // store session data
+	
 
-	header("Location: adminIndex.php");
+	header("Location: admin/index.php");
 }
 else {
 	header("Location: index.php");
